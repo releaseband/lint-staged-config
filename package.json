@@ -1,0 +1,23 @@
+{
+  "name": "@releaseband/lint-staged-config",
+  "version": "0.1.0",
+  "description": "lint-staged config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/lint-staged-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/lint-staged-config/issues"
+  },
+  "homepage": "https://github.com/releaseband/lint-staged-config#readme",
+  "devDependencies": {
+    "lint-staged": "^11.2.3"
+  },
+  "peerDependencies": {
+    "lint-staged": "^11.2.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
