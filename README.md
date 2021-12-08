@@ -7,7 +7,7 @@ echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
 ```
 
 ```
-npm i -D @releaseband/lint-staged-config
+npm i @releaseband/lint-staged-config
 npx install-peerdeps --dev @releaseband/lint-staged-config
 ```
 
