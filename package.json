@@ -7,9 +7,10 @@
   "main": "index.js",
   "scripts": {
     "commit": "cz",
-    "format": "prettier --write --ignore-path ./.gitignore .",
-    "lint": "eslint --ext .js --ignore-path ./.gitignore .",
-    "lint:fix": "npm run lint --  --fix"
+    "format": "prettier . --write --ignore-unknown --ignore-path ./.gitignore",
+    "lint": "eslint . --ext .js --fix --ignore-path ./.gitignore",
+    "lint:md": "markdownlint '**/*.md' --fix --ignore-path ./.gitignore",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
@@ -24,7 +25,9 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
+    "husky": "^7.0.0",
     "lint-staged": "^11.2.3",
+    "markdownlint-cli": "^0.30.0",
     "prettier": "^2.5.1"
   },
   "peerDependencies": {

@@ -14,3 +14,17 @@ create `lint-staged.config.js` file in the **root project folder**:
 ```js
 module.exports = require('@releaseband/lint-staged-config');
 ```
+
+## Add commit hook
+
+initialize husky:
+
+```bash
+npx husky-init && npm install
+```
+
+add pre-commit hook:
+
+```bash
+npx husky add .husky/pre-commit 'npx lint-staged'
+```
