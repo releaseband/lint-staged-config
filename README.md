@@ -1,18 +1,16 @@
-# Installing
+# @releaseband/lint-staged-config
 
-create [.npmrc](https://docs.npmjs.com/cli/v7/configuring-npm/npmrc) file in the **root project folder**:
+lint-staged shareable config
 
-```
-echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
-```
+## Installing
 
-```
-npm i @releaseband/lint-staged-config
+```bash
+npm i -D @releaseband/lint-staged-config
 npx install-peerdeps --dev @releaseband/lint-staged-config
 ```
 
-`lint-staged.config.js`:
+create `lint-staged.config.js` file in the **root project folder**:
 
 ```js
-module.exports = require("@releaseband/lint-staged-config");
+module.exports = require('@releaseband/lint-staged-config');
 ```

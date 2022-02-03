@@ -1,1 +1,4 @@
-module.exports = require('./lint-staged.config.js');
+module.exports = {
+  '*': 'prettier --write --ignore-unknown',
+  '*.{js,jsx,ts,tsx}': 'eslint --fix',
+};
