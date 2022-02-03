@@ -33,6 +33,15 @@
   "peerDependencies": {
     "lint-staged": "^11.2.3"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/releaseband/lint-staged-config.git"
