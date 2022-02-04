@@ -9,7 +9,7 @@ npm i -D @releaseband/lint-staged-config
 npx install-peerdeps --dev @releaseband/lint-staged-config
 ```
 
-create `lint-staged.config.js` file in the **root project folder**:
+create `.lintstagedrc.js` file in the **root project folder**:
 
 ```js
 module.exports = require('@releaseband/lint-staged-config');
@@ -26,5 +26,5 @@ npx husky-init && npm install
 add pre-commit hook:
 
 ```bash
-npx husky add .husky/pre-commit 'npx lint-staged'
+npx husky add .husky/pre-commit 'npx --no lint-staged'
 ```
