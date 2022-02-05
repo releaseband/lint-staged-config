@@ -1,3 +1,10 @@
+# [0.4.0](https://github.com/releaseband/lint-staged-config/compare/v0.3.1...v0.4.0) (2022-02-05)
+
+
+### Features
+
+* add lint workflow ([47d9f64](https://github.com/releaseband/lint-staged-config/commit/47d9f64e9f10447d032e57f2cf056d96c5507206))
+
 ## [0.3.1](https://github.com/releaseband/lint-staged-config/compare/v0.3.0...v0.3.1) (2022-02-05)
 
 
