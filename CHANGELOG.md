@@ -1,3 +1,15 @@
+# [0.3.0](https://github.com/releaseband/lint-staged-config/compare/v0.2.2...v0.3.0) (2022-02-05)
+
+
+### Bug Fixes
+
+* add release config ([8407bbb](https://github.com/releaseband/lint-staged-config/commit/8407bbbe4fbd132433d9f1a4aa3b4f6385d6d159))
+
+
+### Features
+
+* update tools configs ([83c36ba](https://github.com/releaseband/lint-staged-config/commit/83c36bad32f5025b0a4dbc5f4a98fa334dd2bd8c))
+
 ## [0.2.2](https://github.com/releaseband/lint-staged-config/compare/v0.2.1...v0.2.2) (2022-02-04)
 
 
