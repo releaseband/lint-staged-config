@@ -1,6 +1,6 @@
 # @releaseband/lint-staged-config
 
-lint-staged shareable config
+[lint-staged](https://github.com/okonet/lint-staged) shareable config
 
 ## Installing
 
