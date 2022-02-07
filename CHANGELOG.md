@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/releaseband/lint-staged-config/compare/v0.4.0...v1.0.0) (2022-02-07)
+
+
+### Features
+
+* update deps ([bd9ff3a](https://github.com/releaseband/lint-staged-config/commit/bd9ff3add04777a3c68596b0380526f8bf2a4c10))
+
+
+### BREAKING CHANGES
+
+* publish release version
+
 # [0.4.0](https://github.com/releaseband/lint-staged-config/compare/v0.3.1...v0.4.0) (2022-02-05)
 
 
